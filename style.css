@@ -1,11 +1,14 @@
-li,
-li a
+/*li,*/
+/*li a*/
+/*span*/
 
-{
-    border: 1px solid !important;
-}
+/*{*/
+/*border: 1px solid !important;*/
+/*}*/
+
 button.navbar-toggle {
-    border: 1px solid !important;
+    /*border: 1px solid !important;*/
+    background-color: #e0fdd4 !important;
     width: 75px;
     height: 75px;
     padding-top: 23px;
@@ -14,24 +17,40 @@ button.navbar-toggle {
     border-radius: 50%;
 
 }
+
+button.navbar-toggle:hover,
+button.navbar-toggle:active {
+    background-color: #e85356 !important;
+
+}
+
+button.navbar-toggle > div {
+    padding: 5px 0px 0px 15px;
+}
+
 .fa-color {
     /*color: rgba(0, 188, 212, 0.2);*/
     /*color: transparent;*/
 }
+
 .navbar-default {
     background: transparent !important;
 
 }
 
-.navbar-default .navbar-nav> li
-/*.navbar-default .navbar-nav> li > a*/
-{
-    /*background: transparent;*/
+.navbar-default,
+.navbar-default .navbar-collapse {
+    border: none !important;
 }
 
-
-.navbar-default .navbar-nav> li > a
+.navbar-default .navbar-nav > li
+    /*.navbar-default .navbar-nav> li > a*/
 {
+    /*background: transparent;*/
+    padding: 0px 18px 0px 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
     width: 75px;
     height: 75px;
     padding-top: 27px;
@@ -40,22 +59,24 @@ button.navbar-toggle {
     border-radius: 50%;
 }
 
-.navbar-default .navbar-nav> li:not(.active) > a {
+.navbar-default .navbar-nav > li:not(.active) > a {
     background-color: #e0fdd4;
     /*background-color: transparent;*/
 
 }
+
 /*.navbar-default .navbar-nav> li > a,*/
-ul.navbar-nav{
+ul.navbar-nav {
     float: right;
 }
 
-.navbar-default .navbar-nav>li.active>a,
-.navbar-default .navbar-nav>li.active>a:hover,
-.navbar-default .navbar-nav>li:hover > a{
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:hover,
+.navbar-default .navbar-nav > li:hover > a {
     color: #020005;
     background-color: #e85356;
 }
+
 .navbar-default .navbar-nav > li {
     font-size: 18px;
 
