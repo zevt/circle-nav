@@ -6,6 +6,10 @@
 /*border: 1px solid !important;*/
 /*}*/
 
+body{
+    padding-top: 90px !important;
+    /*margin-top: 90px;*/
+}
 button.navbar-toggle {
     /*border: 1px solid !important;*/
     background-color: #e0fdd4 !important;
