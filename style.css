@@ -14,12 +14,14 @@ button.navbar-toggle {
     padding-top: 23px;
     padding-bottom: 35px;
     font-size: 18px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
 
 }
 
 button.navbar-toggle:hover,
-button.navbar-toggle:active {
+button.navbar-toggle:focus {
     background-color: #e85356 !important;
 
 }
@@ -81,3 +83,4 @@ ul.navbar-nav {
     font-size: 18px;
 
 }
+
